@@ -112,8 +112,8 @@ CREATE TABLE IF NOT EXISTS `ox_statuses` (
 );
 
 INSERT INTO `ox_statuses` (`name`, `default`, `onTick`) VALUES
-  ('hunger', 0, 0.02),
-  ('thirst', 0, 0.05),
+  ('hunger', 0, -0.02),
+  ('thirst', 0, -0.05),
   ('stress', 0, -0.10);
 
 CREATE TABLE IF NOT EXISTS `ox_licenses` (
